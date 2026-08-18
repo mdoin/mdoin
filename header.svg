@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 230" width="850" height="230" role="img" aria-label="Maite Doin - firmware, saas, computer vision, ai - building systems that prefer to be wrong safely">
+<title>Maite Doin - doinlabs.com.br</title>
+<defs>
+<style>
+@keyframes wipe1 { from { transform: translateX(-250px) } to { transform: translateX(0) } }
+@keyframes wipe2 { from { transform: translateX(-260px) } to { transform: translateX(0) } }
+@keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+@keyframes rise { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: translateY(0) } }
+@keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+@keyframes pulse { 0%,100% { opacity: .2 } 50% { opacity: 1 } }
+@keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+@keyframes sweep { 0% { transform: translateX(0); opacity: 0 } 8% { opacity: .6 } 92% { opacity: .6 } 100% { transform: translateX(844px); opacity: 0 } }
+@keyframes trace { from { stroke-dashoffset: 420 } to { stroke-dashoffset: 0 } }
+@keyframes flow { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -44px } }
+@keyframes glitch { 0%,86%,100% { transform: translate(0,0) } 88% { transform: translate(5px,-3px) } 91% { transform: translate(-4px,2px) } 94% { transform: translate(3px,1px) } }
+.w1 { animation: wipe1 1.05s steps(8, end) both }
+.w2 { animation: wipe2 .95s steps(8, end) .95s both }
+.glitch { animation: glitch 5.5s ease-in-out 2s infinite }
+.caret { animation: blink 1s step-end 1.9s infinite }
+.f1 { animation: fade .5s ease-out 1.35s both }
+.f2 { animation: fade .5s ease-out 1.85s both }
+.dot { animation: pulse 1.5s ease-in-out 1.8s infinite }
+.r1 { animation: rise .55s cubic-bezier(.2,.8,.2,1) 2.05s both }
+.r2 { animation: rise .55s cubic-bezier(.2,.8,.2,1) 2.25s both }
+.r3 { animation: rise .55s cubic-bezier(.2,.8,.2,1) 2.45s both }
+.r4 { animation: rise .55s cubic-bezier(.2,.8,.2,1) 2.65s both }
+.r5 { animation: rise .55s cubic-bezier(.2,.8,.2,1) 2.85s both }
+.r6 { animation: rise .55s cubic-bezier(.2,.8,.2,1) 3.05s both }
+.r7 { animation: rise .55s cubic-bezier(.2,.8,.2,1) 3.25s both }
+.bar { transform-origin: left center; animation: grow 1s cubic-bezier(.2,.8,.2,1) both }
+.bar1 { animation-delay: 2.15s } .bar2 { animation-delay: 2.35s }
+.bar3 { animation-delay: 2.55s } .bar4 { animation-delay: 2.75s }
+.scan { animation: sweep 7s linear 1.2s infinite }
+.ecg { animation: trace 2.4s ease-out 2.4s both }
+.rail { animation: flow 3s linear 2.1s infinite }
+.tex { animation: fade .9s ease-out 2.4s both }
+</style>
+
+<pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+<circle cx="1.8" cy="1.8" r="1.5" fill="#e8558f" fill-opacity=".5"></circle>
+</pattern>
+<pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+<line x1="0" y1="0" x2="0" y2="9" stroke="#e8558f" stroke-opacity=".4" stroke-width="1.8"></line>
+</pattern>
+<clipPath id="c1"><rect class="w1" x="22" y="56" width="252" height="70"></rect></clipPath>
+<clipPath id="c2"><rect class="w2" x="22" y="126" width="262" height="72"></rect></clipPath>
+</defs>
+
+<g stroke="#e8558f" stroke-opacity=".85" stroke-width="2" fill="none">
+<path d="M1 22V1h21"></path><path d="M828 1h21v21"></path><path d="M849 208v21h-21"></path><path d="M22 229H1v-21"></path>
+</g>
+<line x1="1" y1="36" x2="849" y2="36" stroke="#e8558f" stroke-opacity=".3"></line>
+<line x1="596" y1="36" x2="596" y2="229" stroke="#e8558f" stroke-opacity=".22"></line>
+
+<rect class="tex" x="508" y="126" width="60" height="56" fill="url(#dots)"></rect>
+<rect class="tex" x="566" y="52" width="14" height="158" fill="url(#hatch)"></rect>
+
+<text font-family="monospace" fill="#e8558f" x="24" y="24" font-size="10.5" font-weight="700" letter-spacing="3">OPS://DOINLABS · NODE mdoin</text>
+<g class="f1">
+<rect class="dot" x="386" y="15" width="8" height="8" fill="#ff7ab6"></rect>
+<text font-family="monospace" fill="#e8558f" x="404" y="24" font-size="10.5" font-weight="700" letter-spacing="3">SYSTEMS ONLINE</text>
+</g>
+<text class="f2" font-family="monospace" fill="#78818c" x="826" y="24" font-size="10.5" letter-spacing="2.4" text-anchor="end">FAIL-CLOSED / NO SILENT FAILURES</text>
+
+<g clip-path="url(#c1)">
+<text class="glitch" font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#e8558f" fill-opacity=".5" x="30" y="112" font-size="58" font-weight="900" letter-spacing="-1">MAITÊ</text>
+<text font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#e8558f" x="27" y="110" font-size="58" font-weight="900" letter-spacing="-1">MAITÊ</text>
+</g>
+<g clip-path="url(#c2)">
+<text font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="none" stroke="#e8558f" stroke-width="1.6" x="27" y="176" font-size="58" font-weight="900" letter-spacing="8">DOIN</text>
+</g>
+<rect class="caret" x="222" y="138" width="15" height="44" fill="#ff7ab6"></rect>
+
+<g class="r1">
+<line class="rail" x1="300" y1="66" x2="560" y2="66" stroke="#e8558f" stroke-opacity=".6" stroke-width="1.5" stroke-dasharray="6 5"></line>
+</g>
+<text class="r2" font-family="monospace" x="300" y="92" font-size="13.5" font-weight="700" letter-spacing="1.2"><tspan fill="#e8558f">firmware</tspan><tspan fill="#78818c"> · </tspan><tspan fill="#e8558f">saas</tspan></text>
+<text class="r3" font-family="monospace" x="300" y="112" font-size="13.5" font-weight="700" letter-spacing="1.2"><tspan fill="#e8558f">computer vision</tspan><tspan fill="#78818c"> · </tspan><tspan fill="#e8558f">ai</tspan></text>
+
+<g class="r5">
+<text font-family="monospace" fill="#78818c" x="300" y="160" font-size="11.5" letter-spacing=".4">building systems that prefer</text>
+<text font-family="monospace" fill="#78818c" x="300" y="176" font-size="11.5" letter-spacing=".4">to be wrong safely</text>
+</g>
+<text class="r6" font-family="monospace" fill="#e8558f" x="24" y="212" font-size="12" font-weight="700" letter-spacing="2.4">doinlabs.com.br</text>
+<text class="r7" font-family="monospace" fill="#78818c" x="300" y="212" font-size="10.5" letter-spacing="1.4">undercount &gt; inflate · refuse &gt; hallucinate</text>
+
+<g font-family="monospace" font-size="10" font-weight="700" letter-spacing="1.8">
+<g class="r1">
+<text fill="#78818c" x="616" y="70">FIRMWARE</text>
+<rect x="712" y="64" width="84" height="5" fill="#8b949e" fill-opacity=".25"></rect>
+<g transform="translate(712 0)"><rect class="bar bar1" x="0" y="64" width="69" height="5" fill="#e8558f"></rect></g>
+<text fill="#e8558f" x="826" y="70" text-anchor="end">82</text>
+</g>
+<g class="r2">
+<text fill="#78818c" x="616" y="96">SAAS</text>
+<rect x="712" y="90" width="84" height="5" fill="#8b949e" fill-opacity=".25"></rect>
+<g transform="translate(712 0)"><rect class="bar bar2" x="0" y="90" width="79" height="5" fill="#e8558f"></rect></g>
+<text fill="#e8558f" x="826" y="96" text-anchor="end">94</text>
+</g>
+<g class="r3">
+<text fill="#78818c" x="616" y="122">VISION</text>
+<rect x="712" y="116" width="84" height="5" fill="#8b949e" fill-opacity=".25"></rect>
+<g transform="translate(712 0)"><rect class="bar bar3" x="0" y="116" width="64" height="5" fill="#ff7ab6"></rect></g>
+<text fill="#e8558f" x="826" y="122" text-anchor="end">76</text>
+</g>
+<g class="r4">
+<text fill="#78818c" x="616" y="148">GUARDRAILS</text>
+<rect x="712" y="142" width="84" height="5" fill="#8b949e" fill-opacity=".25"></rect>
+<g transform="translate(712 0)"><rect class="bar bar4" x="0" y="142" width="84" height="5" fill="#ff7ab6"></rect></g>
+<text fill="#e8558f" x="826" y="148" text-anchor="end">OK</text>
+</g>
+</g>
+
+<polyline class="ecg" points="616,180 648,180 656,180 664,164 672,196 680,180 708,180 716,174 724,186 732,180 760,180 768,166 776,180 800,180 808,176 816,184 822,180 826,180" fill="none" stroke="#e8558f" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="420"></polyline>
+<text class="r7" font-family="monospace" fill="#78818c" x="826" y="212" font-size="10.5" letter-spacing="1.8" text-anchor="end">TELEMETRY NOMINAL</text>
+
+<rect class="scan" x="2" y="38" width="3" height="188" fill="#ff7ab6"></rect>
+</svg>
