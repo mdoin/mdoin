@@ -3,14 +3,14 @@
 </p>
 <br>
 <table align="center">
-<tr><td>🔧</td><td><b><a href="https://github.com/mdoin/oohplayer">oohplayer</a></b></td><td>Reverse-engineered a vendor's APK, rewrote the player, patched the firmware. Fleet of Android set-top boxes, zero manual setup.</td></tr>
-<tr><td>🏗️</td><td><b><a href="https://github.com/mdoin/crmsaas">crmsaas</a></b></td><td>Extracted a CRM from a monolith into a multi-tenant SaaS. One schema per account, not one WHERE clause per query.</td></tr>
-<tr><td>📡</td><td><b><a href="https://github.com/mdoin/manutencaooh">manutencaooh</a></b></td><td>Monitors a display network, infers operating hours from behavior, correlates incidents by cause.</td></tr>
-<tr><td>🎯</td><td><b><a href="https://github.com/mdoin/leadcapturer">leadcapturer</a></b></td><td>B2B lead pipeline from natural language to scored spreadsheet. Deterministic first, LLM as optional layer.</td></tr>
-<tr><td>🎨</td><td><b><a href="https://github.com/mdoin/interativooh">interativooh</a></b></td><td>Generates an ad from a mobile form, moderates it with AI, puts it on an LED panel in minutes.</td></tr>
-<tr><td>🚗</td><td><b><a href="https://github.com/mdoin/contadorooh">contadorooh</a></b></td><td>Counts vehicles with CV. Four mechanisms against double-counting. Promotes nothing to "bus" because erring high destroys the metric.</td></tr>
-<tr><td>💰</td><td><b><a href="https://github.com/mdoin/copilotofinanceiro">copilotofinanceiro</a></b></td><td>Finance automation where AI suggests and code decides. 13-state machine with independent verification.</td></tr>
-<tr><td>🗺️</td><td><b><a href="https://github.com/mdoin/catalogodooh">catalogodooh</a></b></td><td>OOH sales platform with photorealistic simulation. The engine samples light from the photo instead of inventing it.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/oohplayer">oohplayer</a></b></td><td>Reverse-engineered a vendor's APK, rewrote the player, patched the firmware. Fleet of Android set-top boxes, zero manual setup.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/crmsaas">crmsaas</a></b></td><td>Extracted a CRM from a monolith into a multi-tenant SaaS. One schema per account, not one WHERE clause per query.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/manutencaooh">manutencaooh</a></b></td><td>Monitors a display network, infers operating hours from behavior, correlates incidents by cause.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/leadcapturer">leadcapturer</a></b></td><td>B2B lead pipeline from natural language to scored spreadsheet. Deterministic first, LLM as optional layer.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/interativooh">interativooh</a></b></td><td>Generates an ad from a mobile form, moderates it with AI, puts it on an LED panel in minutes.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/contadorooh">contadorooh</a></b></td><td>Counts vehicles with CV. Four mechanisms against double-counting. Promotes nothing to "bus" because erring high destroys the metric.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/copilotofinanceiro">copilotofinanceiro</a></b></td><td>Finance automation where AI suggests and code decides. 13-state machine with independent verification.</td></tr>
+<tr><td></td><td><b><a href="https://github.com/mdoin/catalogodooh">catalogodooh</a></b></td><td>OOH sales platform with photorealistic simulation. The engine samples light from the photo instead of inventing it.</td></tr>
 </table>
 <br>
 <details>
