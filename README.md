@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./header.svg" width="100%" />
-</p>
+
 <br>
 <table align="center">
 <tr><td><b><a href="https://github.com/mdoin/oohplayer">oohplayer</a></b></td><td>Reverse-engineered a vendor's APK, rewrote the player, patched the firmware. Fleet of Android set-top boxes, zero manual setup.</td></tr>
