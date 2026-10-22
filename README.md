@@ -43,7 +43,7 @@ Plus YOLO, InsightFace, Claude Code, MCP and Ollama on the vision and AI side.
 ### Now
 
 - Software engineer at Intermidia
-- BSc in Systems Analysis & Development at Estácio
+- Technologist degree in Systems Analysis & Development at Estácio
 - Running [Doin Labs](https://doinlabs.com.br): landing pages, automations and applied AI for small businesses
 
 ### Contact
