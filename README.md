@@ -34,11 +34,11 @@ A chat agent that answers financial questions from real ERP data and acts throug
 ### Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,nodejs,express,fastapi,postgres,sqlite,opencv,react,vite,tailwind,docker,linux,git&theme=dark">
-  <img alt="Python, TypeScript, JavaScript, Node.js, Express, FastAPI, PostgreSQL, SQLite, OpenCV, React, Vite, Tailwind CSS, Docker, Linux, Git" src="https://skillicons.dev/icons?i=py,ts,js,nodejs,express,fastapi,postgres,sqlite,opencv,react,vite,tailwind,docker,linux,git&theme=light">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,nodejs,fastapi,postgres,react,docker,linux&theme=dark">
+  <img alt="Python, TypeScript, Node.js, FastAPI, PostgreSQL, React, Docker, Linux" src="https://skillicons.dev/icons?i=py,ts,nodejs,fastapi,postgres,react,docker,linux&theme=light">
 </picture>
 
-Also: Fastify · MySQL · Java · YOLO · ByteTrack · InsightFace · Claude Code · MCP servers · Ollama · RAG · systemd · Caddy · PM2
+Plus YOLO, InsightFace, Claude Code, MCP and Ollama on the vision and AI side.
 
 ### Now
 
