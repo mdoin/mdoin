@@ -1,50 +1,51 @@
+## Hi, I'm Maitê
 
-<br>
-<table align="center">
-<tr><td><b><a href="https://github.com/mdoin/oohplayer">oohplayer</a></b></td><td>Reverse-engineered a vendor's APK, rewrote the player, patched the firmware. Fleet of Android set-top boxes, zero manual setup.</td></tr>
-<tr><td><b><a href="https://github.com/mdoin/crmsaas">crmsaas</a></b></td><td>Extracted a CRM from a monolith into a multi-tenant SaaS. One schema per account, not one WHERE clause per query.</td></tr>
-<tr><td><b><a href="https://github.com/mdoin/manutencaooh">manutencaooh</a></b></td><td>Monitors a display network, infers operating hours from behavior, correlates incidents by cause.</td></tr>
-<tr><td><b><a href="https://github.com/mdoin/leadcapturer">leadcapturer</a></b></td><td>B2B lead pipeline from natural language to scored spreadsheet. Deterministic first, LLM as optional layer.</td></tr>
-<tr><td><b><a href="https://github.com/mdoin/interativooh">interativooh</a></b></td><td>Generates an ad from a mobile form, moderates it with AI, puts it on an LED panel in minutes.</td></tr>
-<tr><td><b><a href="https://github.com/mdoin/contadorooh">contadorooh</a></b></td><td>Counts vehicles with CV. Four mechanisms against double-counting. Promotes nothing to "bus" because erring high destroys the metric.</td></tr>
-<tr><td><b><a href="https://github.com/mdoin/copilotofinanceiro">copilotofinanceiro</a></b></td><td>Finance automation where AI suggests and code decides. 13-state machine with independent verification.</td></tr>
-<tr><td><b><a href="https://github.com/mdoin/catalogodooh">catalogodooh</a></b></td><td>OOH sales platform with photorealistic simulation. The engine samples light from the photo instead of inventing it.</td></tr>
-</table>
-<br>
-<details>
-<summary><b>things I reach for</b></summary>
-<br>
-| | |
-|---|---|
-| **languages** | TypeScript · Python · Java · Kotlin · SQL |
-| **backend** | Node.js · Express · Fastify · FastAPI |
-| **frontend** | React · Next.js · React Native · Vite · Tailwind |
-| **data** | PostgreSQL · SQLite · Sequelize · SQLAlchemy |
-| **cv & ml** | YOLO · ByteTrack · OpenCV · InsightFace · OpenCLIP · PyTorch |
-| **ai** | Gemini · OpenAI API · structured output · grounding |
-| **infra** | Docker · nginx · Caddy · PM2 · ADB · systemd |
-| **embedded** | Android SDK · ExoPlayer · AOSP · ext4 · firmware tooling |
-| **quality** | Zod · Vitest · Playwright · WebAuthn · AES-256-GCM |
- 
-</details>
-<br>
+Software engineer in Londrina, Brazil. I build production systems in Python, Node.js and PostgreSQL, with AI coding agents in the loop every day.
+
+Self-taught. I started by automating my own work at an insurance billing desk and kept going until it became the job.
+
+### What I work on
+
+- **Computer vision on outdoor media:** real-time pipelines over camera streams that count people and vehicles and measure attention on LED panels, without storing personal data.
+- **Multi-tenant SaaS:** a CRM pulled out of a monolith and turned into a product, with per-tenant schemas, a home-grown automation engine and live updates.
+- **AI tooling:** custom MCP servers that expose internal systems (PostgreSQL, ERP APIs, an LED media panel) as agent tools, with scoped permissions and audit logs. Local models via Ollama when data can't leave the network.
+- **Internal tools:** 10+ in the last six months, mostly replacing spreadsheet-and-copy-paste workflows for operations teams.
+
+### Selected projects
+
+**ExpoTimeOut**: live inference on outdoor LED media  
+Counts people and vehicles, estimates age range and attention time, and runs an activation where visitors generate AI artwork that reaches the panel via QR code in under a minute. The hardest part was infrastructure, not models: cameras with no reachable RTSP endpoint, solved with RTMP push ingest.  
+`Python` `YOLO` `ByteTrack` `InsightFace` `FastAPI` `PostgreSQL`
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=mdoin&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=e8558f&title_color=e8558f" />
-    <img src="https://github-readme-stats.vercel.app/api?username=mdoin&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&icon_color=e8558f&title_color=e8558f" height="165" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mdoin&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=e8558f" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdoin&layout=compact&theme=default&hide_border=true&langs_count=8&title_color=e8558f" height="165" />
-  </picture>
+  <img src="assets/expotimeout.gif" width="260" alt="LED panel at an expo booth showing a live count of people in front of it, average age, and vehicle impressions">
+  <br>
+  <sub>Live audience count on the panel at an expo booth.</sub>
 </p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=mdoin&theme=github-dark-blue&hide_border=true&ring=e8558f&fire=ff7ab6&currStreakLabel=e8558f" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mdoin&hide_border=true&ring=e8558f&fire=ff7ab6&currStreakLabel=e8558f" />
-  </picture>
-</p>
-<br>
-<p align="center">
-  <a href="https://linkedin.com/in/maitedoin">linkedin</a> · <a href="https://www.doinlabs.com.br">doinlabs.com.br</a>
-</p>
+
+**Multi-tenant CRM**  
+Schema-per-tenant isolation in PostgreSQL, an automation engine with an expression parser written from scratch (no `eval`), full-text search, and real-time updates over SSE with `LISTEN/NOTIFY`.  
+`Node.js` `Express` `PostgreSQL` `React` `Docker` `Caddy`
+
+**AI financial copilot**  
+A chat agent that answers financial questions from real ERP data and acts through function calling: reconciling invoices, drafting contracts. Nothing financial runs without human approval plus 2FA, and every action lands in an append-only audit log.  
+`Fastify` `React` `RAG` `OAuth2` `ETL`
+
+### Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,nodejs,express,fastapi,postgres,sqlite,opencv,react,vite,tailwind,docker,linux,git&theme=dark">
+  <img alt="Python, TypeScript, JavaScript, Node.js, Express, FastAPI, PostgreSQL, SQLite, OpenCV, React, Vite, Tailwind CSS, Docker, Linux, Git" src="https://skillicons.dev/icons?i=py,ts,js,nodejs,express,fastapi,postgres,sqlite,opencv,react,vite,tailwind,docker,linux,git&theme=light">
+</picture>
+
+Also: Fastify · MySQL · Java · YOLO · ByteTrack · InsightFace · Claude Code · MCP servers · Ollama · RAG · systemd · Caddy · PM2
+
+### Now
+
+- Software engineer at Intermidia
+- BSc in Systems Analysis & Development at Estácio
+- Running [Doin Labs](https://doinlabs.com.br): landing pages, automations and applied AI for small businesses
+
+### Contact
+
+[LinkedIn](https://linkedin.com/in/maitedoin) · maitedoin@gmail.com
